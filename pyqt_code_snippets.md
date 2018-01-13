@@ -1,4 +1,4 @@
-PyQt5是Qt的Python绑定库，既有Qt的强大，又有Python语言的简洁，要实现一个实际场景的GUI程序的时候，确实非常实用而且代码量不是太多。这里我总结了最近写一个界面时用到的代码片段，希望以后用到的时候能及时拾起来，也希望能帮助到别人。 此外我将这个内容也放到GitHub上，有兴趣的同学可以收藏下。
+PyQt5是Qt的Python绑定库，既有Qt的强大，又有Python语言的简洁，要实现一个实际场景的GUI程序的时候，确实非常实用而且代码量不是太多。这里我总结了最近写一个界面时用到的代码片段，希望以后用到的时候能及时拾起来，也希望能帮助到别人。 此外我将这个内容也放到[GitHub](https://github.com/vra/pyqt5-code-snippets/blob/master/pyqt_code_snippets.md)上，有兴趣的同学可以收藏下。
 <!--more-->
 
 ### 安装
@@ -64,6 +64,9 @@ if __name__ == '__main__':
     demo.show()
     sys.exit(app.exec_())
 ```
+
+下面就是各个组件的使用方式，只列出了一些常用的功能，别的功能还得在使用的时候再查找。  
+
 
 ### Button
 ```python
